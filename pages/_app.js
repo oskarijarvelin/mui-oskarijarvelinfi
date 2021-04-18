@@ -52,7 +52,7 @@ export default function MyApp(props) {
 
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
-        <link rel="mask-icon" href="/favicon.png" color={themeColor} />
+        <link rel="mask-icon" href="/favicon.svg" color={themeColor} />
         
         <link rel="apple-touch-startup-image" href="/favicon.png" sizes="2048x2732" />
         <link rel="apple-touch-startup-image" href="/favicon.png" sizes="1668x2224" />
