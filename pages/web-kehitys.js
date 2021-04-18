@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Webkehitys() {
   const classes = useStyles();
   return (
-    <Layout title="Web-kehitys">
+    <Layout title="Web-kehitys" desc="Työskentelen Digimogulin Web Developerina Oulussa. Erikoisosaamistani ovat sivustojen nopeus, turvallisuus, saavutettavuus ja tekninen hakukoneoptimointi.">
 
       <Breadcrumbs />
 
@@ -30,7 +30,7 @@ export default function Webkehitys() {
 
         <Box pb={6}>
           <Typography variant="body2">
-            Työskentelen <ExtLink href="https://digimoguli.fi/">Digimogulin</ExtLink>  Web Developerina ja vastuualueisiini kuuluvat web-kehityksen lisäksi integraatioihin, versionhallintaan ja tietoturvaan liittyvät tehtävät. Erikoisosaamistani ovat sivustojen nopeus, turvallisuus, ja saavutettavuus.
+            Työskentelen <ExtLink href="https://digimoguli.fi/">Digimogulin</ExtLink> Web Developerina ja vastuualueisiini kuuluvat web-kehityksen lisäksi integraatioihin, versionhallintaan ja tietoturvaan liittyvät tehtävät. Erikoisosaamistani ovat sivustojen nopeus, turvallisuus, ja saavutettavuus.
           </Typography>
         </Box>
       </Container>

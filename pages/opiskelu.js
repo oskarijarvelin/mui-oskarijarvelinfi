@@ -74,7 +74,7 @@ export default function Opiskelu() {
   var op = 43;
   var progress = Math.round(op / 210 * 100);
   return (
-    <Layout title="Opiskelu">
+    <Layout title="Opiskelu" desc="Opiskelen Oulun Ammattikorkeakoulussa tietojenkäsittelyn Tradenomiksi. Tutkinnon laajuus on 210 opintopistettä eli 3,5 vuotta. Kuinka voin palvella?">
 
       <Breadcrumbs />
 

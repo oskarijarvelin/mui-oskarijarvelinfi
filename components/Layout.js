@@ -23,11 +23,11 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function Layout({title, children}) {
+export default function Layout({title, desc, children}) {
     const classes = useStyles();
     return (
         <>
-            <Head title={title} />
+            <Head title={title} desc={desc} />
 
             <AppBar />
             <div className={classes.content} />

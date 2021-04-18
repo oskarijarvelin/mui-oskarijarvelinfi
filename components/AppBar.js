@@ -174,10 +174,10 @@ export default function MenuAppBar() {
                 </Box>
 
                 <Box className={classes.socialMenuBox}>
-                    <IconButton edge="start" color="inherit" className={classes.iconButton} href="https://www.linkedin.com/in/oskarijarvelin/" target="_blank" rel="noopener">
+                    <IconButton edge="start" color="inherit" className={classes.iconButton} href="https://www.linkedin.com/in/oskarijarvelin/" target="_blank" rel="noopener" title="Oskari LinkedInissä">
                         <LinkedInIcon />
                     </IconButton>
-                    <IconButton edge="start" color="inherit" className={classes.iconButton} href="https://github.com/oskarijarvelin" target="_blank" rel="noopener">
+                    <IconButton edge="start" color="inherit" className={classes.iconButton} href="https://github.com/oskarijarvelin" target="_blank" rel="noopener" title="Oskari GitHubissa">
                         <GitHubIcon />
                     </IconButton>
                 </Box>
