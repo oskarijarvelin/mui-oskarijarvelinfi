@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#F2F2F2',
     borderTop: '1px solid',
   },
-  tr: {
+  td: {
     borderTop: '1px solid',
   },
   summary: {
@@ -51,19 +51,19 @@ function createData(kurssi, op, type) {
 
 const rows = [
   createData('Perusopinnot', 60, 'th'),
-  createData('Web-kehityksen perusteet', 15, 'tr'),
-  createData('Web-projekti', 15, 'tr'),
-  createData('Johdatus digitaalisiin palveluihin', 15, 'tr'),
-  createData('Verkkopalveluprojekti', 15, 'tr'),
+  createData('Web-kehityksen perusteet', 15, 'td'),
+  createData('Web-projekti', 15, 'td'),
+  createData('Johdatus digitaalisiin palveluihin', 15, 'td'),
+  createData('Verkkopalveluprojekti', 15, 'td'),
   createData('Ammattiopinnot', 90, 'th'),
-  createData('Digital products and services', 12, 'tr'),
-  createData('Web Content Project', 15, 'tr'),
-  createData('Mobile Services', 12, 'tr'),
-  createData('Mobile Project', 15, 'tr'),
-  createData('Professional English Communication', 3, 'tr'),
-  createData('Ammatillinen ruotsin kieli ja viestintä', 3, 'tr'),
-  createData('Peliala', 15, 'tr'),
-  createData('Tietojenkäsittelyn toimeksianto', 15, 'tr'),
+  createData('Digital products and services', 12, 'td'),
+  createData('Web Content Project', 15, 'td'),
+  createData('Mobile Services', 12, 'td'),
+  createData('Mobile Project', 15, 'td'),
+  createData('Professional English Communication', 3, 'td'),
+  createData('Ammatillinen ruotsin kieli ja viestintä', 3, 'td'),
+  createData('Peliala', 15, 'td'),
+  createData('Tietojenkäsittelyn toimeksianto', 15, 'td'),
   createData('Vapaasti valittavat opinnot', 15, 'th'),
   createData('Harjoittelu', 30, 'th'),
   createData('Opinnäytetyö', 15, 'th'),
@@ -133,7 +133,7 @@ export default function Opiskelu() {
 
         <Box py={2}>
           <TableContainer component={Paper}>
-            <Table className={classes.table} size="small" aria-label="a dense table">
+            <Table className={classes.table} size="small" aria-label="Opintojen sisältö">
               <TableHead className={classes.thead}>
                 <TableRow>
                   <TableCell>
@@ -146,8 +146,8 @@ export default function Opiskelu() {
               </TableHead>
               <TableBody>
 
-                {rows.map((row) => (
-                  <TableRow key={row.name} className={row.type == 'th' ? classes.th : classes.tr}>
+                {rows.map((row, i) => (
+                  <TableRow key={i} className={row.type == 'th' ? classes.th : classes.td}>
                     <TableCell component={row.type} scope="row">
                       {row.kurssi}
                     </TableCell>
