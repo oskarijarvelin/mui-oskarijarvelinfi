@@ -162,7 +162,7 @@ export default function Opiskelu() {
                     Yhteensä
                   </TableCell>
                   <TableCell component="th" align="right">
-                    210 op
+                    210
                   </TableCell>
                 </TableRow>
 
