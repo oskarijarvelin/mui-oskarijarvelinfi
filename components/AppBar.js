@@ -183,7 +183,7 @@ export default function MenuAppBar() {
                 </Box>
 
                 <Box display={{xs: "block", md: "none"}}>
-                    <IconButton edge="start" color="inherit" className={classes.menuIcon} aria-controls="menu" aria-haspopup="true" variant="contained" color="inherit" onClick={handleClick} >
+                    <IconButton edge="start" color="inherit" className={classes.menuIcon} aria-label="Avaa päävalikko" aria-controls="menu" aria-haspopup="true" variant="contained" color="inherit" onClick={handleClick} >
                         <MenuIcon />
                     </IconButton>
                     <Menu id="menu" anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose} MenuListProps={{ disablePadding: true }}>
