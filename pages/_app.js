@@ -45,13 +45,10 @@ export default function MyApp(props) {
         <meta name="msapplication-TileColor" content={themeColor} />
         <meta name="msapplication-tap-highlight" content="no" />
         
-        <link rel="apple-touch-icon" href="/favicon.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="/favicon.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
-        <link rel="apple-touch-icon" sizes="167x167" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/icons/with-bg/favicon_bg_x192.png" />
 
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/with-bg/favicon_bg_x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/with-bg/favicon_bg_x16.png" />
         <link rel="mask-icon" href="/favicon.svg" color={themeColor} />
         
         <link rel="apple-touch-startup-image" href="/favicon.png" sizes="2048x2732" />
