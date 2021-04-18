@@ -1,0 +1,16 @@
+{
+    "name": "Oskari Järvelin",
+    "short_name": "Oskari Järvelin",
+    "icons": [
+      {
+        "src": "/favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#223388",
+    "background_color": "#FAFAFA",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }

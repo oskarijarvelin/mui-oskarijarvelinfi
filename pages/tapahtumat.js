@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Tapahtumat() {
   const classes = useStyles();
   return (
-    <Layout title="Tapahtumat" desc="Työskentelen tapahtumatekniikan parissa äänen, valon kuin videonkin parissa. Kuinka voin palvella monialaisellaa osaamisellani ja pitkällä kokemuksellani.">
+    <Layout title="Tapahtumat" desc="Työskentelen tapahtumatekniikan parissa äänen, valon kuin videonkin parissa. Kuinka voin palvella monialaisellaa osaamisellani ja pitkällä kokemuksellani." url="/tapahtumat" img="/hero-tapahtumat.jpg">
 
       <Breadcrumbs />
 

@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Webkehitys() {
   const classes = useStyles();
   return (
-    <Layout title="Web-kehitys" desc="Työskentelen Digimogulin Web Developerina Oulussa. Erikoisosaamistani ovat sivustojen nopeus, turvallisuus, saavutettavuus ja tekninen hakukoneoptimointi.">
+    <Layout title="Web-kehitys" desc="Työskentelen Digimogulin Web Developerina Oulussa. Erikoisosaamistani ovat sivustojen nopeus, turvallisuus, saavutettavuus ja tekninen hakukoneoptimointi." url="/web-kehitys" img="/hero-web-kehitys.jpg">
 
       <Breadcrumbs />
 
